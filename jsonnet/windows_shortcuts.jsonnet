@@ -291,5 +291,9 @@ local k = import 'lib/karabiner.libsonnet';
            k.input('keypad_0', ['control']),
            k.outputKey('keypad_0', ['left_command']),
            k.condition('if', bundle.webBrowsers)),
+    k.rule('L (Ctrl) [Browsers]',
+           k.input('l', ['control']),
+           k.outputKey('l', ['left_command']),
+           k.condition('if', bundle.webBrowsers)),
   ],
 }
