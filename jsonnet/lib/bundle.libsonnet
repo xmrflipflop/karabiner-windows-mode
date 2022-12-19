@@ -52,9 +52,13 @@
   // bundle identifiers for web browser applications
   webBrowsers: [
     // Google Chrome
-    '^com\\.google\\.chrome$',
+    '^com\\.google\\.Chrome$',
     // Mozilla Firefox
     '^org\\.mozilla\\.firefox$',
+    '^org\\.mozilla\\.nightly$',
+    '^com\\.microsoft\\.Edge',
+    '^com\\.brave\\.Browser$',
+    '^com\\.apple\\.Safari$'
   ],
 
   // since this combination is used so much, it's given its own identifier
