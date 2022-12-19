@@ -1037,27 +1037,6 @@
          ]
       },
       {
-         "description": "Win [Open Spotlight]",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "left_command"
-               },
-               "to": [
-                  {
-                     "key_code": "left_command"
-                  }
-               ],
-               "to_if_alone": [
-                  {
-                     "apple_vendor_keyboard_key_code": "spotlight"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
          "description": "A (Ctrl)",
          "manipulators": [
             {
@@ -1350,112 +1329,6 @@
                      "key_code": "i",
                      "modifiers": [
                         "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "L (Win) [Login Window]",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "L (Win) [Lock Screen]",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "power",
-                     "modifiers": [
-                        "control",
-                        "shift"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "L (Alt+Ctrl) [Login Window]",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                     "mandatory": [
-                        "control",
-                        "option"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "L (Alt+Ctrl) [Lock Screen]",
-         "manipulators": [
-            {
-               "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                     "mandatory": [
-                        "control",
-                        "option"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "power",
-                     "modifiers": [
-                        "control",
-                        "shift"
                      ]
                   }
                ],
@@ -2128,447 +2001,6 @@
          ]
       },
       {
-         "description": "1 (Cmd) [Open Finder]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "1",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b com.apple.finder"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "2 (Cmd) [Open first pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "2",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:0:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "3 (Cmd) [Open second pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "3",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:1:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "4 (Cmd) [Open third pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "4",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:2:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "5 (Cmd) [Open fourth pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "5",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:3:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "6 (Cmd) [Open fifth pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "6",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:4:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "7 (Cmd) [Open sixth pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "7",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:5:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "8 (Cmd) [Open eighth pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "8",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:6:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "9 (Cmd) [Open ninth pinned Dock app]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "9",
-                  "modifiers": {
-                     "mandatory": [
-                        "command"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "shell_command": "open -b $(/usr/libexec/PlistBuddy -c 'print :persistent-apps:7:tile-data:bundle-identifier' ~/Library/Preferences/com.apple.dock.plist)"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
          "description": "/ (Ctrl) [+Terminal Emulators]",
          "manipulators": [
             {
@@ -2847,7 +2279,345 @@
                "type": "basic"
             }
          ]
+      },
+      {
+         "description": "L (Cmd)",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
+                     ],
+                     "file_paths": [
+                        "Chrome Remote Desktop\\.app"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "l",
+                  "modifiers": {
+                     "mandatory": [
+                        "command"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "q",
+                     "modifiers": [
+                        "left_control",
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Esc (Ctrl+Shift)",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
+                     ],
+                     "file_paths": [
+                        "Chrome Remote Desktop\\.app"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "escape",
+                  "modifiers": {
+                     "mandatory": [
+                        "left_control",
+                        "left_shift"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "shell_command": "open -a 'Activity Monitor.app'"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Esc (Ctrl)",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                        "^com\\.parallels\\.desktop\\.console$",
+                        "^org\\.vmware\\.fusion$",
+                        "^com\\.citrix\\.XenAppViewer$",
+                        "^com\\.microsoft\\.rdc\\.macos$"
+                     ],
+                     "file_paths": [
+                        "Chrome Remote Desktop\\.app"
+                     ],
+                     "type": "frontmost_application_unless"
+                  }
+               ],
+               "from": {
+                  "key_code": "escape",
+                  "modifiers": {
+                     "mandatory": [
+                        "left_control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "launchpad"
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Hyphen (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "hyphen",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "hyphen",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad Minus (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_hyphen",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_hyphen",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Equal (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "equal_sign",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "equal_sign",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad Plus (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_plus",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_plus",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "0 (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "0",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "0",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad 0 (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.chrome$",
+                        "^org\\.mozilla\\.firefox$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_0",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_0",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
       }
    ],
-   "title": "Windows Shortcuts"
+   "title": "xmrflipflop"
 }
