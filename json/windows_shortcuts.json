@@ -2281,6 +2281,286 @@
          ]
       },
       {
+         "description": "Hyphen (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "hyphen",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "hyphen",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad Minus (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_hyphen",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_hyphen",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Equal (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "equal_sign",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "equal_sign",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad Plus (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_plus",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_plus",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "0 (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "0",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "0",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "Keypad 0 (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "keypad_0",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "keypad_0",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
+         "description": "L (Ctrl) [Browsers]",
+         "manipulators": [
+            {
+               "conditions": [
+                  {
+                     "bundle_identifiers": [
+                        "^com\\.google\\.Chrome$",
+                        "^org\\.mozilla\\.firefox$",
+                        "^org\\.mozilla\\.nightly$",
+                        "^com\\.microsoft\\.Edge",
+                        "^com\\.brave\\.Browser$",
+                        "^com\\.apple\\.Safari$"
+                     ],
+                     "type": "frontmost_application_if"
+                  }
+               ],
+               "from": {
+                  "key_code": "l",
+                  "modifiers": {
+                     "mandatory": [
+                        "control"
+                     ],
+                     "optional": [
+                        "any"
+                     ]
+                  }
+               },
+               "to": [
+                  {
+                     "key_code": "l",
+                     "modifiers": [
+                        "left_command"
+                     ]
+                  }
+               ],
+               "type": "basic"
+            }
+         ]
+      },
+      {
          "description": "L (Cmd)",
          "manipulators": [
             {
@@ -2396,258 +2676,6 @@
                "to": [
                   {
                      "key_code": "launchpad"
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Hyphen (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "hyphen",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "hyphen",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Keypad Minus (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "keypad_hyphen",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "keypad_hyphen",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Equal (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "equal_sign",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "equal_sign",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Keypad Plus (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "keypad_plus",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "keypad_plus",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "0 (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "0",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "0",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "Keypad 0 (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "keypad_0",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "keypad_0",
-                     "modifiers": [
-                        "left_command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "L (Ctrl) [Browsers]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.chrome$",
-                        "^org\\.mozilla\\.firefox$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "l",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "l",
-                     "modifiers": [
-                        "left_command"
-                     ]
                   }
                ],
                "type": "basic"
