@@ -58,7 +58,7 @@
     '^org\\.mozilla\\.nightly$',
     '^com\\.microsoft\\.Edge',
     '^com\\.brave\\.Browser$',
-    '^com\\.apple\\.Safari$'
+    '^com\\.apple\\.Safari$',
   ],
 
   // since this combination is used so much, it's given its own identifier

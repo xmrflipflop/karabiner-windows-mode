@@ -71,7 +71,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -170,7 +171,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -222,7 +224,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -271,7 +274,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -323,7 +327,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -376,7 +381,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -430,7 +436,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -479,7 +486,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -531,7 +539,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -584,7 +593,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -638,7 +648,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -690,7 +701,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -744,7 +756,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -796,7 +809,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -850,7 +864,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -902,7 +917,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -954,7 +970,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1006,7 +1023,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1060,7 +1078,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1112,7 +1131,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1164,7 +1184,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1256,7 +1277,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1308,7 +1330,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1360,7 +1383,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1412,7 +1436,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1464,7 +1489,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1516,7 +1542,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1568,7 +1595,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1620,7 +1648,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1672,7 +1701,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1724,7 +1754,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1816,7 +1847,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1868,7 +1900,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1920,7 +1953,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -1972,7 +2006,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2071,7 +2106,8 @@
                         "^com\\.github\\.wez\\.wezterm$"
                      ],
                      "file_paths": [
-                        "Chrome Remote Desktop\\.app"
+                        "Chrome Remote Desktop\\.app",
+                        "Cursor\\.app"
                      ],
                      "type": "frontmost_application_unless"
                   }
@@ -2090,187 +2126,6 @@
                "to": [
                   {
                      "key_code": "spacebar",
-                     "modifiers": [
-                        "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "F1",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "f1",
-                  "modifiers": {
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "slash",
-                     "modifiers": [
-                        "command",
-                        "shift"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "F3",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$",
-                        "^io\\.alacritty$",
-                        "^co\\.zeit\\.hyper$",
-                        "^com\\.googlecode\\.iterm2$",
-                        "^com\\.apple\\.Terminal$",
-                        "^com\\.github\\.wez\\.wezterm$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "f3",
-                  "modifiers": {
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "g",
-                     "modifiers": [
-                        "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "F4 (Alt) [+Terminal Emulators]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                        "^com\\.parallels\\.desktop\\.console$",
-                        "^org\\.vmware\\.fusion$",
-                        "^org\\.gnu\\.emacs$",
-                        "^com\\.jetbrains",
-                        "^com\\.microsoft\\.VSCode$",
-                        "^com\\.sublimetext\\.3$",
-                        "^net\\.kovidgoyal\\.kitty$",
-                        "^com\\.citrix\\.XenAppViewer$",
-                        "^com\\.microsoft\\.rdc\\.macos$"
-                     ],
-                     "file_paths": [
-                        "Chrome Remote Desktop\\.app"
-                     ],
-                     "type": "frontmost_application_unless"
-                  }
-               ],
-               "from": {
-                  "key_code": "f4",
-                  "modifiers": {
-                     "mandatory": [
-                        "option"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "q",
-                     "modifiers": [
-                        "command"
-                     ]
-                  }
-               ],
-               "type": "basic"
-            }
-         ]
-      },
-      {
-         "description": "F4 (Ctrl) [Only Chrome]",
-         "manipulators": [
-            {
-               "conditions": [
-                  {
-                     "bundle_identifiers": [
-                        "^com\\.google\\.Chrome$"
-                     ],
-                     "type": "frontmost_application_if"
-                  }
-               ],
-               "from": {
-                  "key_code": "f4",
-                  "modifiers": {
-                     "mandatory": [
-                        "control"
-                     ],
-                     "optional": [
-                        "any"
-                     ]
-                  }
-               },
-               "to": [
-                  {
-                     "key_code": "w",
                      "modifiers": [
                         "command"
                      ]
